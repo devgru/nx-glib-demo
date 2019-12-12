@@ -1,0 +1,9 @@
+version: "3.7"
+services:
+  switch-env:
+    build: .
+    image: glib-demo
+    command: bash -c 'make'
+    working_dir: /root
+    volumes:
+      - ../app:/root
