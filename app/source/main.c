@@ -7,7 +7,11 @@
 #include <glib.h>
 #include <glib-object.h>
 
+static gchar *dot = ".";
+GObject test;
+
 int main(int argc, char* argv[])
 {
+    g_print(dot);
     return 0;
 }
